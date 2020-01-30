@@ -24,3 +24,4 @@ __TODO:__
  * Implement other criteria.
  * Print wins/losses in plot. 
  * Show several stocks.
+ * get rid of red/green line at bottom of plot.
