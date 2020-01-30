@@ -8,10 +8,13 @@ git clone https://github.com/glensk/stoxx
 __How to use:__
 python stoxx bayer -p
 
-![picture alt](https://github.com/glensk/stoxx/tree/master/images/bayer_GD200.png "Bayer chart")
+__Output:__
+
+![picture alt](/images/bayer_GD200.png "Bayer chart")
 
 __TODO:__
  * Check if GD200 is correct (compare to boerse.de, dont consider intra day).
  * Update stock data.
  * Implement other criteria.
  * Print wins/losses in plot. 
+ * Show several stocks.
