@@ -9,11 +9,10 @@ __How to use:__
 python stoxx bayer -p
 
 __TODO:__
-Markup : * Check if GD200 is correct (compare to boerse.de, dont consider intra day)
-         * Update stock data.
-         * Implement other criteria.
-
- * Bullet list
+ * Check if GD200 is correct (compare to boerse.de, dont consider intra day)
+ * Update stock data.
+ * Implement other criteria.
+ * Check if 
  * Nested bullet
  * Sub-nested bullet etc
  * Bullet list item 2
