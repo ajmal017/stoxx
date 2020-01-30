@@ -12,3 +12,8 @@ __TODO:__
 Markup : * Check if GD200 is correct (compare to boerse.de, dont consider intra day)
          * Update stock data.
          * Implement other criteria.
+
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
