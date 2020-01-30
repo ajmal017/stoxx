@@ -9,6 +9,6 @@ __How to use:__
 python stoxx bayer -p
 
 __TODO:__
-    * Item Check if GD200 is correct (compare to boerse.de, dont consider intra day)
-    * Item Update stock data.
-    * Item Implement other criteria.
+Markup : * Check if GD200 is correct (compare to boerse.de, dont consider intra day)
+         * Update stock data.
+         * Implement other criteria.
