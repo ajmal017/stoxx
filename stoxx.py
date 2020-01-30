@@ -377,10 +377,10 @@ if __name__ == '__main__':
         # calculate diff strategies
         get_earnings_notrade(df,start_trading_at)
         fig = get_earnings_gd(200,df,args,fig)
-        #fig = get_earnings_gd(150,df,args,fig)
-        #fig = get_earnings_gd(100,df,args,fig)
-        #fig = get_earnings_gd(50,df,args,fig)
-        #fig = get_earnings_gd(20,df,args,fig)
+        fig = get_earnings_gd(150,df,args,fig)
+        fig = get_earnings_gd(100,df,args,fig)
+        fig = get_earnings_gd(50,df,args,fig)
+        fig = get_earnings_gd(20,df,args,fig)
 
         if args.plot:
             fig.show()
