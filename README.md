@@ -1,4 +1,4 @@
-# stoxx: a simple tool to analyze stock data. 
+# stoxx: a simple tool to load and analyze stock data. 
 
 The stock data is loaded from yahoo and simple analysis can be performed as e.g. the 20/200 days moving average (in German: GD20, GD200)).
 
