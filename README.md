@@ -10,15 +10,16 @@ __How to use:__
  * python stoxx bayer -p        (to polot MA and stock price for a particular stock (here, bayer))
 
 __Output:__  
+* python stoxx                 (to get a summary of a few indicators of your portfolio)
 | GD200  |  GD100  |  GD50   |  GD20   | Close   |RSI14 |RSI9  | RSI7 | 1D % |    | ID   | name           |
 |--------|---------|---------|---------|---------|------|------|------|------|----|------|----------------|
 |T T 69  | T T 109 | T T 288 | T T 443 | 36.82  $| 72.6 | 72.9 | 72.3 |  9.2 | -1 | ^VIX | Volatility     |
 |F F 0   | F F -1  | F F -16 | F F -44 | 25917. $| 31.5 | 30.2 | 30.4 | -3.0 | -1 | ^DJI | DOW Jones      |
-|--------|---------|---------|---------|---------|------|------|------|------|----|------|----------------|
 |T T 74  | T T 107 | T T 113 | F F -22 | 745.51 $| 51.9 | 47.7 | 45.8 |  0.3 | -1 | TSLA | Tesla          |
 |T T 44  | T T 43  | T T 68  | T T 116 | 128.66 $| 60.6 | 59.0 | 57.3 |  0.0 | -1 | SEDG | SolarEdge      |  
 
 
+* python stoxx bayer -p        (to polot MA and stock price for a particular stock (here, bayer))
 ![picture alt](/images/bayer_GD200.png "Bayer chart")
 
 __TODO:__  
