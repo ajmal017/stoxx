@@ -1,23 +1,22 @@
 # stoxx: simple tool summarizing a few indicators of your stock portfolio.
 
-The stock data is loaded from yahoo. You can simply add the stocks (companies) you care for. RSI's and moving averages are summarized for your portfolioc. Plotting functionality for particular stock.
+The stock data is loaded from yahoo. You can simply add the stocks (companies) you care for. RSI's and moving averages are summarized for your portfolio.
 
 __How to get:__  
 git clone https://github.com/glensk/stoxx
 
 __How to use:__  
-python stoxx                 # to get a summary of a few indicators of your portfolio
-or 
-python stoxx bayer -p        # to polot MA and stock price for a particular stock (here, bayer)
+ * python stoxx                 (to get a summary of a few indicators of your portfolio)
+ * python stoxx bayer -p        (to polot MA and stock price for a particular stock (here, bayer))
 
 __Output:__  
- GD200    GD100    GD50     GD20     GD10      Close   | RSI14  RSI9 | RSI7 | 1D % | name |
-------------------------------------------------------------------------------------------------------------------------------------------
-T T 69   T T 109  T T 288  T T 443  T T 794  | 36.82  $| 72.6 | 72.9 | 72.3 |  9.2 | -1 | ^VIX      Volatility
-F F 0    F F -1   F F -16  F F -44  F F -121 | 25917. $| 31.5 | 30.2 | 30.4 | -3.0 | -1 | ^DJI      DOW Jones
-------------------------------------------------------------------------------------------------------------------------------------------
-T T 74   T T 107  T T 113  F F -22  F F -142 | 745.51 $| 51.9 | 47.7 | 45.8 |  0.3 | -1 | TSLA      Tesla    
-T T 44   T T 43   T T 68   T T 116  F T 154  | 128.66 $| 60.6 | 59.0 | 57.3 |  0.0 | -1 | SEDG      SolarEdge   
+| GD200  |  GD100  |  GD50   |  GD20   | Close   |RSI14 |RSI9  | RSI7 | 1D % |    | ID        name 
+|--------|---------|---------|---------|---------|------|------|-----------------------------------------
+|T T 69  | T T 109 | T T 288 | T T 443 | 36.82  $| 72.6 | 72.9 | 72.3 |  9.2 | -1 | ^VIX      Volatility
+|F F 0   | F F -1  | F F -16 | F F -44 | 25917. $| 31.5 | 30.2 | 30.4 | -3.0 | -1 | ^DJI      DOW Jones
+|--------|---------|---------|---------|---------|------|------|------|------|----|----------------------
+|T T 74  | T T 107 | T T 113 | F F -22 | 745.51 $| 51.9 | 47.7 | 45.8 |  0.3 | -1 | TSLA      Tesla    
+|T T 44  | T T 43  | T T 68  | T T 116 | 128.66 $| 60.6 | 59.0 | 57.3 |  0.0 | -1 | SEDG      SolarEdge   
 T T 18   T T 37   T T 28   F T 18   F F -74  | 33.6   €| 51.3 | 50.3 | 50.7 | 10.4 |    | ST5.F     STEICO     
 T T 7    T T 32   F T 22   F T 13   F F -208 | 20.8   €| 43.4 | 38.9 | 36.5 |  2.9 |    | IQ8.F     Iqiyi    
 T T 10   T T 30   F T 3    F T 52   F F -149 | 21.9   $| 42.1 | 34.7 | 28.7 | -4.5 | -1 | JKS       Jinkosolar  
