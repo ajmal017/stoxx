@@ -1,6 +1,6 @@
-# stoxx: simple tool summarizing a few indicators of your stock portfolio.
+# stoxx: Simple tool, summarizing a few indicators of your stock portfolio.
 
-The stock data is loaded from yahoo. You can simply add the stocks (companies) you care for. RSI's and moving averages are summarized for your portfolio.
+The stock data is loaded from yahoo. You can simply add the stocks (companies) you care for in the function stocks_to_load(). RSI's and moving averages are summarized for the chosen companies.
 
 __How to get:__  
 git clone https://github.com/glensk/stoxx
