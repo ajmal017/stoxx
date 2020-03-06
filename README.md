@@ -1,30 +1,34 @@
-# stoxx: a simple tool to load and analyze stock data. 
+# stoxx: simple tool summarizing a few indicators of your stock portfolio.
 
-The stock data is loaded from yahoo and simple analysis can be performed as e.g. the 20/200 days moving average (in German: GD20, GD200)).
+The stock data is loaded from yahoo. You can simply add the stocks (companies) you care for. RSI's and moving averages are summarized for your portfolioc. Plotting functionality for particular stock.
 
 __How to get:__  
 git clone https://github.com/glensk/stoxx
 
 __How to use:__  
-python stoxx bayer -p
+python stoxx                 # to get a summary of a few indicators of your portfolio
+or 
+python stoxx bayer -p        # to polot MA and stock price for a particular stock (here, bayer)
 
 __Output:__  
-earned (notrade): 130.08 % first buy 1997-10-17 for 32.70539855957031 sold for 75.25 on last day.  
-earned (GD200  ): 379.25 %159 first buy 1997-10-22 00:00:00 for 34.81869888305664 sold for.  
-earned (GD150  ): 412.03 %199 first buy 1998-01-02 00:00:00 for 34.46851060231527 sold for.  
-earned (GD100  ): 405.58 %313 first buy 1997-12-30 00:00:00 for 33.96329879760742 sold for.  
-earned (GD50   ): 614.82 %421 first buy 1997-11-20 00:00:00 for 33.2036018371582 sold for.  
-earned (GD20   ): 1044.8 %700 first buy 1997-11-17 00:00:00 for 31.246200561523438 sold for.  
+ GD200    GD100    GD50     GD20     GD10      Close   | RSI14  RSI9 | RSI7 | 1D % | name |
+------------------------------------------------------------------------------------------------------------------------------------------
+T T 69   T T 109  T T 288  T T 443  T T 794  | 36.82  $| 72.6 | 72.9 | 72.3 |  9.2 | -1 | ^VIX      Volatility
+F F 0    F F -1   F F -16  F F -44  F F -121 | 25917. $| 31.5 | 30.2 | 30.4 | -3.0 | -1 | ^DJI      DOW Jones
+------------------------------------------------------------------------------------------------------------------------------------------
+T T 74   T T 107  T T 113  F F -22  F F -142 | 745.51 $| 51.9 | 47.7 | 45.8 |  0.3 | -1 | TSLA      Tesla    
+T T 44   T T 43   T T 68   T T 116  F T 154  | 128.66 $| 60.6 | 59.0 | 57.3 |  0.0 | -1 | SEDG      SolarEdge   
+T T 18   T T 37   T T 28   F T 18   F F -74  | 33.6   €| 51.3 | 50.3 | 50.7 | 10.4 |    | ST5.F     STEICO     
+T T 7    T T 32   F T 22   F T 13   F F -208 | 20.8   €| 43.4 | 38.9 | 36.5 |  2.9 |    | IQ8.F     Iqiyi    
+T T 10   T T 30   F T 3    F T 52   F F -149 | 21.9   $| 42.1 | 34.7 | 28.7 | -4.5 | -1 | JKS       Jinkosolar  
+...
+
 
 ![picture alt](/images/bayer_GD200.png "Bayer chart")
 
 __TODO:__  
- * Check if GD200 is correct (compare to boerse.de, dont consider intra day).
- * Update stock data.
- * Implement other criteria.
- * Print wins/losses in plot. 
- * Show several stocks.
- * get rid of red/green line at bottom of plot.
+ * Implement TSI.
+ * Implement MACD.
  
  
  __Note:__  
